@@ -1,7 +1,7 @@
 from importlib import import_module
 from timeit import default_timer
 
-current_day = "03"  #str(input("Enter day number: ")).zfill(2)
+current_day = "17"  #str(input("Enter day number: ")).zfill(2)
 import_module('Day' + current_day + '.tests')
 current_module = import_module('Day' + current_day + '.solution')
 start_time = default_timer()
